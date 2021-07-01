@@ -52,3 +52,16 @@ button {
 #javascript {
     background-color: var(--green);
 }
+#room-and-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 16px;
+}
+p {
+    flex: 1;
+    border: 1pt solid black;
+    border-radius: 5px;
+    margin: 1rem 0.5rem;
+    padding: 0.5rem;
+}
