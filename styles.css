@@ -2,6 +2,11 @@
     --background-color: rgb(241, 241, 241);
     --text-color: black;
     --light-text-color: seashell;
+    /*four color palette for buttons */
+    --teal: #2AC3D5;
+    --purple: #922AD5;
+    --red: #D53C2A;
+    --green:
 
 }
 body {
