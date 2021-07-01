@@ -7,16 +7,13 @@
     --purple: #922AD5;
     --red: #D53C2A;
     --green: #66CC00;
-
 }
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 20px;
-}
-body {
     width: 100vw;
     background-color: var(--background-color);
     color: var(--text-color);
