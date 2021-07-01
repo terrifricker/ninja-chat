@@ -8,6 +8,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    width: 100vw;
     background-color: var(--background-color);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16pt;
@@ -16,4 +17,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+header {
+
 }
