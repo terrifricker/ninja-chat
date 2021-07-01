@@ -1,3 +1,58 @@
+<!-- 
+Second Outline 
+Functionality is needed to interact with the dom and the database
+Functionality Needed
+    Listen for click or tab into
+        chatroom choice button (have a default button if none are chosen?)
+        username field
+        message field
+
+    Get chatroom choice
+    Change style to new chatroom choice - different background colors coorespoonding to button colors
+    Update dom with the messages from that chatroom
+
+    Get username
+    Add username to database
+    Update dom with new username (onSnapshot)
+
+    Get message
+    Add message to database
+    Update dom with new message (onSnapshot)
+
+Data Structure - I reduced my documents from five categories to two categories,
+  combining all of the messages
+
+    Collection on Firestore that contains
+        users
+            id
+            username
+        
+        messages
+            id
+            message
+            chatroomId
+            usernameId
+            timestamp
+
+Form needs to collect username and chatroom and message
+    username - input type="text"
+    chatroom - buttons?
+    message - input type="text"
+
+
+html order
+    title
+    buttons for chatroom choice
+    indicate chatroom choice
+    window to show messages
+    text input for entering new message
+    text input for changing username
+
+***********************************************************************************
+
+
+
+
 First Outline for Chatroom
 
 Functionality Needed
