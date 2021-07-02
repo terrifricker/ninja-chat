@@ -73,3 +73,21 @@ p {
     border: 1pt solid black;
     border-radius: 5px;
 }
+.teal {
+    background-color: var(--teal);
+}
+.purple {
+    background-color: var(--purple);
+}
+.red {
+    background-color: var(--red);
+}
+.green {
+    background-color: var(--green);
+}
+.gray {
+    background-color: rgb(202, 202, 202);
+}
+.message {
+    background-color: var(--background-color);
+}
