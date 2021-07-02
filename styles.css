@@ -1,7 +1,7 @@
 :root {
     --background-color: rgb(241, 241, 241);
     --text-color: black;
-    --light-text-color: seashell;
+    --light-text-color: rgb(241, 241, 241);
     /*four color palette for buttons */
     --teal: #2AC3D5;
     --purple: #922AD5;
