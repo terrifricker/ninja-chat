@@ -67,6 +67,9 @@ p {
     margin: 1rem 0.5rem;
     padding: 0.5rem;
 }
+span {
+    font-style: italic;
+}
 #message-window {
     margin: 0.5rem;
     padding: 0.5rem;
