@@ -94,3 +94,21 @@ span {
 .message {
     background-color: var(--background-color);
 }
+fieldset {
+    margin: 0.5rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    border: 1pt solid black;
+}
+label {
+    flex: 1;
+    margin-right: 0.5rem;
+}
+input {
+    flex: 10;
+}
+fieldset button {
+    flex: 0.5;
+    margin: 0;
+}
