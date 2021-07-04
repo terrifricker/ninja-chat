@@ -2,7 +2,9 @@ buttons = document.querySelector('.buttons');
 form = document.querySelector('form');
 
 
-buttons.addEventListener('click', (e) => {
+// default values
+let currentChatroom='web-development';
+let currentUsername='anonymous';
 
 });
 
