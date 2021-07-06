@@ -108,6 +108,7 @@ label {
     margin-right: 0.5rem;
 }
 input {
+    padding: 0.5rem;
     font-size: 16px;
     flex: 10;
 }
