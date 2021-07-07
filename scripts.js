@@ -45,16 +45,40 @@ buttons.addEventListener('click', e => {
             room.innerHTML = 'Web Development';
             color.className = webDevColor;
     }
-
- 
-
-
-
 });
 
-messageButton.addEventListener('click', e => {
+sendMessage.addEventListener('submit', e => {
+    e.preventDefault();
     console.log(e.target.id);
-})
-usernameButton.addEventListener('click', e =>{
+    console.log(sendMessage.message.value);
+
+    const now = new Date();
+    const newMessage = {
+        chatroom: currentChatroom,
+        message: sendMessage.message.value,
+        time: firebase.firestore.Timestamp.fromDate(now),
+        username: currentUsername,
+    };
+
+    db.collection('messages').add(newMessage).then( () => {
+        console.log('message added to database');
+        sendMessage.reset();
+    }).catch(err => console.log(err));
+});
+
+
+updateUsername.addEventListener('submit', e => {
+    e.preventDefault();
     console.log(e.target.id);
+    console.log(updateUsername.username.value);
+
+    const now = new Date();
+    const newUsername = {
+        username: updateUsername.username.value,
+    };
+
+    db.collection('users').add(newUsername).then( () => {
+        console.log('username added to database');
+        updateUsername.reset();
+    }).catch(err => console.log(err));
 })
