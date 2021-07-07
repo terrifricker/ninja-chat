@@ -31,14 +31,14 @@
                 <fieldset class="gray">
                     <label for="message">Enter message</label>
                     <input type="text" id="message" placeholder="Your message here ...">
-                    <button type="submit" id="send-message">Send</button>
+                    <input type="submit" value="Send"></input>
                 </fieldset>
             </form>
             <form id="update-username">
                 <fieldset class="gray">
                     <label for="username">Update username</label>
                     <input type="text" id="username" placeholder="Your new username here ...">
-                    <button type="submit" id="update-username">Update</button>
+                    <input type="submit" value="Update"></input>
                 </fieldset>
             </form>
         </main>
@@ -58,6 +58,9 @@
             };
             // Initialize Firebase
             firebase.initializeApp(firebaseConfig);
+
+            // Initialize our connection to the database to refer to later
+            const db = firebase.firestore();
         </script>
         <script src="scripts.js"></script>
     </body>
