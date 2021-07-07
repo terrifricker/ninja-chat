@@ -1,7 +1,7 @@
 // references needed
 const buttons = document.querySelector('.buttons');
-const messageButton = document.querySelector('#send-message');
-const usernameButton = document.querySelector('#update-username');
+const sendMessage = document.querySelector('#send-message');
+const updateUsername = document.querySelector('#update-username');
 
 
 // default values
